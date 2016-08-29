@@ -1,0 +1,2 @@
+0 */6 * * * sh /home/ubuntu/.dbtos3.sh 2>&1 | mail -s "DB Backup" pradeep.gupta@grocermax.com
+0 */6 * * * sh /home/odoo/.psqldbtos3.sh 2>&1 | mail -s "GrocerMax-Odoo DB Backup" pradeep.gupta@grocermax.com
